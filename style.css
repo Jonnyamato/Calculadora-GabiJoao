@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20210625/pngtree-nature-watercolor-landscape-desktop-wallpaper-image_733326.jpg);
+    background-repeat: no-repeat;
+    background-clip: initial;
+    background-size: cover;
+    
+}
+
+.cabecalho{
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    justify-content: center;
+    background: rgb(222, 198, 226);
+    align-items: center;
+}
+
+.cabecalho h1{
+    font-size: 20px;
+}
+
+.calculadora{
+    width: 500px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-clip: initial;
+    background-size: cover;
+    background-image: url(./imagens/calculadora-removebg-preview.png);
+}
+
+.pai-calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pai-num{
+    display: flex;
+    width: 480px;
+    height: 450px;
+    margin-left: 10px;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.numeros{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.numeros1{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    justify-content: center;
+    gap: 18px;
+}
+
+.num{
+    width: 40px;
+    height: 40px;
+}
+
+.funcao{
+    width: 40px;
+    height: 20px;
+    background-color: rgba(236, 128, 209, 0.767);
+}
+
+.funcao:active{
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.445);
+    background: rgb(146, 100, 155);
+    transition: 0.01ms;
+}
+
+
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+    border: 1px solid rgb(100, 83, 86);
+    border-radius: 8px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.445);
+    transition: 0.01ms;
+}
+
+button:active{
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.445);
+    background: rgb(197, 130, 141);
+    transition: 0.2;
+    transform: scale(0.9);
+}
+
+
+input{
+    margin-bottom: 40px;
+    width: 300px;
+    height: 50px;
+    background-color: rgb(135, 157, 136);
+    border-radius: 5px;
+    font-size: 40px;
+    font-family: Coral Pixels;
+    text-align: end;
+}
+
+#limpar{
+    background-color: rgba(236, 128, 209, 0.767);
+    width: 45px;
+    height: 25px;
+}
+
+#limpar:active{
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.445);
+    background: rgb(146, 100, 155);
+    transition: 0.2;
+}
+
+#pai_desligar{
+    display: flex;
+    width: 340px;
+    height: 40px;
+    justify-content: end;
+}
+
+#desligar{
+    height: 32px;
+    width: 53px;
+    background-color: rgba(236, 128, 209, 0.459);
+    margin-right:15px ;
+    border-radius: 30px;
+}
+
+#desligar:active{  
+    box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.445);
+    transition: 0.2;
+}
